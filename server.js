@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const jwt = require('jsonwebtoken');
+const jwt-decode = require('jwt-decode');
 //const exjwt = require('express-jwt');
 const { expressjwt: exjwt } = require('express-jwt');
 const bodyParser = require('body-parser');
